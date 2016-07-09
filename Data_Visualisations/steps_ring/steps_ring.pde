@@ -8,6 +8,8 @@ Table table;
 
 void setup() {
   size(900, 900);
+  pixelDensity(2); //retina support
+
   background(255);
   table = loadTable("health.csv", "header");
   //check output

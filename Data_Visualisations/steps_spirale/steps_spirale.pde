@@ -22,6 +22,7 @@ import processing.pdf.*;          // Import PDF code
 
 void setup() {
   size(1900, 800);
+   pixelDensity(2); //retina support
   if (record) p=createGraphics(1900, 2500);
   background(255);
 
